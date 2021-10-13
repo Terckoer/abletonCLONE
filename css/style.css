@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+/* BODY XD */
+body{
+    width: 100%;
+    margin: 0;
+}
+
+
+/* HEADER PRINCIPAL */
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+    /* PARTE SUPERIOR */
+.top-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:1.25rem;
+}
+    .left-menu{
+        display: flex;
+        list-style: none;
+        font-weight: 700;
+        
+    }
+        /* left li item */
+        .left-menu li{
+            margin-left: 2rem;
+        }
+        .left-menu li a{
+            color: inherit;
+            text-decoration: none;
+        }
+
+    .right-menu{
+        display: flex;
+        list-style: none;
+    }
+        /* right li item */
+        .right-menu li{
+            margin-right: 2rem;
+        }
+            .right-menu li .a-try{
+                text-decoration: none;
+                color: #0000ff;
+                font-weight: 700;
+            }
+            .right-menu li .a-log{
+                text-decoration: none;
+                color: inherit;
+                font-size: small;
+                font-weight: 700;
+            }
+.separator{
+    background-color: #eee;
+    height: 2px;
+    width: 100%;
+}
+    /* PARTE INFERIOR */
+    
+    .sticky-navbar ul{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        list-style: none;
+        font-weight: 700;
+        font-size: 1rem;
+
+    }
+        .sticky-navbar ul li{
+           margin-left: 2rem;
+        }
+        .li-about{
+            color: #ff764d;
+        }
+
+
+/* CIERRA HEADER PRINCIPAL */
+
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* IMAGEN CON EL TEXTO CENTRADO XD */
+.image-text{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+    /* CENTRANDO EL TEXTO ADENTRO DE LA IMG */
+    .image-text figure{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .centered-text{
+        color: #ff764d;
+        position: absolute;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        font-size: 8rem;
+        font-weight: 700;
+    }
+.text-box{
+    width: 50%;
+    margin-top: 5rem;
+}
+    /* Bolds */
+    .text-bold{
+        font-size: 1.5rem;
+        line-height:2;
+    }
+    /* SPANS */
+    .text-bold span{
+        color: #0000ff;
+    }
+    .text-bold span a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .text-box p{
+        font-size: 1.15rem;
+        font-weight: 500;
+    }
+
+/* DUO DE IMAGENES CON UNA PARTE DE COLOR */
+
+.img-duo{
+    display: flex;
+    background: lightcoral;
+    width: 100%;
+
+    
+}
