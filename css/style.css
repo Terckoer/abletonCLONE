@@ -60,7 +60,7 @@ header {
 }
 /* left li item */
 .left-menu li {
-  margin-left: 2rem;
+  margin: 1rem 0 0 2rem;
 }
 .left-menu li a {
   color: inherit;
@@ -807,6 +807,7 @@ footer {
     align-items: flex-start;
     background: #3b5998;
   }
+
   .top-navbar .left-menu {
     width: 100vw;
     display: flex;
@@ -825,7 +826,7 @@ footer {
     align-items: flex-start;
   }
   .top-navbar .right-menu li {
-    padding: 0 2rem;
+    padding:1rem 0 0 2rem;
   }
   .top-navbar .show {
     transition: 2s;
